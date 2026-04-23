@@ -15,12 +15,10 @@ class Person implements Comparable<Person>{
 	}
 	void display() {
 		System.out.println(" name "+ name +" Age "+age);
-
 	}
 
 	@Override
 	public int compareTo(Person o) {
-	
 		return this.name.compareTo(o.name);
 	}
 	
